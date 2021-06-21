@@ -1,0 +1,39 @@
+tbody tr td:last-child{
+    visibility: hidden;
+}
+  
+tbody tr:hover td:last-child{
+    visibility: visible;
+}
+
+.done {
+    color:#006600;
+}
+
+.pending {
+    color:#4d004d;
+}
+
+.pending:hover {
+    color:#660066;
+}
+
+.done:hover {
+    color:green;
+}
+
+.delete {
+    color:#990000;
+}
+
+.delete:hover {
+    color: #b30000
+}
+
+.edit:hover {
+    color: #606060
+}
+
+.done-1 {
+    background-color:#9fdfbf;
+}
